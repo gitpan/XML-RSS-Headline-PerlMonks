@@ -1,16 +1,9 @@
 XML-RSS-Headline-PerlMonks version 0.01
 =======================================
 
-The README is used to introduce the module and provide instructions on
-how to install the module, any machine dependencies it may have (for
-example C compilers and installed libraries) and any other information
-that should be provided before the module is installed.
-
-A README file is required for CPAN modules since CPAN extracts the
-README file from a module distribution so that people browsing the
-archive can use it get an idea of the modules uses. It is usually a
-good idea to provide version information here so that people can
-decide whether fixes for the module are worth downloading.
+XML::RSS::Feed::PerlMonks is a helper module to extract RSS feeds
+from perlmonks.org and allow quick and easy parsing of the data for 
+whatever purposes you need.
 
 INSTALLATION
 
@@ -25,11 +18,9 @@ DEPENDENCIES
 
 This module requires these other modules and libraries:
 
-  blah blah blah
+  XML::RSS::Feed
 
 COPYRIGHT AND LICENCE
-
-Put the correct copyright and licence information here.
 
 Copyright (C) 2006 by Don Shanks
 

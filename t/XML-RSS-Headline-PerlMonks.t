@@ -2,12 +2,15 @@
 
 use strict;
 use warnings;
-use Test::More tests => 11;
+use Test::More;
 
-BEGIN { 
-	use_ok('XML::RSS::Feed'); 
-	use_ok('XML::RSS::Headline::PerlMonks');
-};
+eval 'use XML::RSS::Feed';
+plan( skip_all => 'XML::RSS::Feed required to test') if $@;
+
+eval 'use XML::RSS::Feed::PerlMonks';
+plan( skip_all => 'XML::RSS::Feed::PerlMonks required to test' ) if $@;
+
+plan( test => 9 );
 
 my $feed = XML::RSS::Feed->new(
 	'url'    => 'http://perlmonks.org/?node_id=30175;xmlstyle=rss',

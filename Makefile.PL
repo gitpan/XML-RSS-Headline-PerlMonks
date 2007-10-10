@@ -5,8 +5,10 @@ use ExtUtils::MakeMaker;
 WriteMakefile(
     NAME              => 'XML::RSS::Headline::PerlMonks',
     VERSION_FROM      => 'lib/XML/RSS/Headline/PerlMonks.pm', # finds $VERSION
-    PREREQ_PM         => {}, # e.g., Module::Name => 1.1
+    PREREQ_PM         => { 
+		'XML::RSS::Feed' => '0',
+	},
     ($] >= 5.005 ?     ## Add these new keywords supported since 5.005
       (ABSTRACT_FROM  => 'lib/XML/RSS/Headline/PerlMonks.pm', # retrieve abstract from module
-       AUTHOR         => 'Don Shanks <dshanks@localdomain>') : ()),
+       AUTHOR         => 'Don Shanks <donshank@cpan.org>') : ()),
 );

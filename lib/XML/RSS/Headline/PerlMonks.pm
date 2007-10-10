@@ -4,9 +4,7 @@ use 5.008005;
 use strict;
 use warnings;
 
-#our @ISA = qw();
-
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 use base 'XML::RSS::Headline';
 
@@ -140,18 +138,18 @@ L<http://perl.donshanks.com/modules>
 =head1 BUGS AND SUPPORT
 
 Please report any bugs or feature requests to
-C<bug-xml-rss-headline-perlminks [at] rt [dot] cpan [dot] org> or through the web interface at 
+C<bug-xml-rss-headline-perlmonks [at] rt [dot] cpan [dot] org> or through the web interface at 
 L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=XML-RSS-Headline-PerlMonks>.
 
 =head1 ACKNOWLEDGEMENTS
 
 Thanks to Jeff Bisbee for XML::RSS:Feed, it made my life so much simpler, to the monks at 
-perlmonks.org,  nd my employer WhitePages.com for giving me time and resources to test things 
+perlmonks.org, and my employer WhitePages.com for giving me time and resources to test things 
 out.
 
 =head1 AUTHOR
 
-Don Shanks, E<lt>dshanks [at] cpan [dot] orgE<gt>
+Don Shanks, E<lt>donshank [at] cpan [dot] orgE<gt>
 
 =head1 COPYRIGHT AND LICENSE
 
